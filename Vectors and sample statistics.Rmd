@@ -470,3 +470,109 @@ summary(wait.times)
 
 #"Min. 1st Qu.  Median    Mean 3rd Qu.    Max. "
 #"43.0    58.0    76.0    70.9    82.0    96.0 "
+
+#102 Hands on Lesson 4
+
+#This is to get access to different inherent R datasets
+
+library(datasets)
+
+#this is to get the faithful data set
+
+faithful
+
+#This gives the eruptions variable as a vector 
+
+eruptions.times <- faithful$eruptions
+
+#This splits it into a short and long vector
+
+short <- eruptions.times[eruptions.times <= 3]
+long <- eruptions.times[eruptions.times > 3]
+
+#Question 1 - How many elements are in the short vector?
+
+#102 Hands on Lesson 4
+
+#This is to get access to different inherent R datasets
+
+library(datasets)
+
+#this is to get the faithful data set
+
+faithful
+
+#This gives the eruptions variable as a vector 
+
+eruptions.times <- faithful$eruptions
+
+#This splits it into a short and long vector
+
+short <- eruptions.times[eruptions.times <= 3]
+long <- eruptions.times[eruptions.times > 3]
+
+#How many elements are in the short vector?
+
+length(short)
+
+[1] 97
+
+# How many elements are in the long vector?
+
+length(long)
+
+[1] 175
+
+#Mean wait time of short? 
+
+mean(short)
+
+[1] 175
+
+#Mean wait time of long?
+
+mean(long)
+
+[1] 4.291303
+
+#Standard deviation of short?
+
+sd(short)
+
+[1] 0.2668655
+
+#Standard deviation of long?
+
+sd(long)
+
+[1] 0.4108516
+
+#How many elements are in the long vector?
+
+length(long)
+
+[1] 175
+
+#Mean wait time of short? 
+
+mean(short)
+
+[1] 2.038134
+
+#Mean wait time of long?
+
+mean(long)
+
+[1] 4.291303
+
+#Standard deviation of short?
+
+sd(short)
+
+[1] 0.2668655
+
+#Standard deviation of long?
+
+sd(long)
+
+[1] 0.4108516
