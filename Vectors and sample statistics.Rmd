@@ -31,6 +31,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 100:1
 
+# "Creating and Accessing Vectors"
 
 heights <- c(171, 192, 183, 177, 154, 176)
 
