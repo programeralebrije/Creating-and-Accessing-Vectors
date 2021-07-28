@@ -48,3 +48,31 @@ seq(0, 1, by = 0.1)
 heights / 2.54
 
 heights <- c(171, 192, 183, 177, 154, 176)
+
+
+# "Vector Arithmetic"
+
+heights / 2.54
+
+#"You can verify that the first element in this vector is the quotient of 171 divided by 2.54, the second is the quotient of 192 divided by 2.54, and so on. The expression h / 2.54 divides each element in R by 2.54. You could store the heights in inches in a variable h.inch:"
+
+h.inch <- heights / 2.54
+
+#"Suppose that each person whose height you measured was wearing shoes at the time of the measurement, and the soles of their shoes had the following different thicknesses (in centimeters): 4, 1, 2, 6, 3, and 5. You can make a vector of shoe sole thicknesses:"
+
+soles <- c(4, 1, 2, 6, 3, 5)
+
+#"Now you can find the height of each person without their shoes by subtracting the thickness of their shoe soles from their measured height. You do this by subtracting the vector soles from heights. R computes the difference of each element of heights and the corresponding element of soles:"
+
+heights - soles
+
+#"[1] 167 191 181 171 151 171"
+
+
+n = 1:10
+sqrt(n)
+
+#"[1] 1.000000 1.414214 1.732051 2.000000 2.236068 2.449490 2.645751 2.828427 3.000000 3.162278"
+
+
+
