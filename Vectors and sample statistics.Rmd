@@ -30,3 +30,20 @@ plot(pressure)
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 100:1
+
+
+heights <- c(171, 192, 183, 177, 154, 176)
+
+heights[1]
+
+heights[2]
+
+1:10
+
+100:1
+
+seq(0, 1, by = 0.1)
+
+heights / 2.54
+
+heights <- c(171, 192, 183, 177, 154, 176)
